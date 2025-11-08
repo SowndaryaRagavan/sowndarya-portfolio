@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sowndarya Ragavan | Portfolio</title>
+  <style>
+    :root {
+      --bg: #f8f9fa;
+      --text: #222;
+      --accent: #0077b6;
+      --card-bg: #fff;
+      --shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    * {
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--accent);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      color: var(--accent);
+      margin-bottom: 1rem;
+    }
+    .projects, .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: var(--card-bg);
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sowndarya Ragavan</h1>
+    <p>Full Stack Developer with expertise in software engineering, DevOps automation, and cloud-native application delivery. Expertise in developing scalable web applications and microservices using Python, React, Node.js, and SQL, combined with strong hands-on experience in AWS and Azure. Adept at leveraging Docker, Kubernetes, Terraform, and CI/CD pipelines to streamline deployments and enhance system reliability.</p>
+  </header>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Telecom Application on Azure AKS</h3>
+        <p>Led the development and deployment of a telecom application on Azure Kubernetes Service (AKS) using Python, FastAPI, Django and React.</p>
+      </div>
+      <div class="card">
+        <h3>AI-Powered Microservices</h3>
+        <p>Built and deployed Python-based microservices that integrate with AI APIs (OpenAI, Anthropic) for text generation and semantic search; deployed using AWS Lambda and API Gateway.</p>
+      </div>
+      <div class="card">
+        <h3>Automated CI/CD Pipelines</h3>
+        <p>Implemented fully automated pipelines in Azure DevOps and GitHub Actions for build, test, and deployment processes, significantly improving delivery speed.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">
+        <h3>Programming Languages</h3>
+        <ul>
+          <li>Python, BASH, Shell scripting, PowerShell, Node.js</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Cloud Platforms</h3>
+        <ul>
+          <li>AWS (ECS, Lambda, EC2, S3, CloudFormation, CloudWatch, RDS, DynamoDB)</li>
+          <li>Azure (AKS, Azure SQL, Networking, Key Vault, Storage Accounts)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Frontend Frameworks</h3>
+        <ul>
+          <li>React, Next.js, Tailwind CSS, HTML5, CSS3, RESTful APIs</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Backend Frameworks</h3>
+        <ul>
+          <li>Python (FastAPI, Django), Node.js (Express.js)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Infrastructure as Code (IaC)</h3>
+        <ul>
+          <li>Terraform (AWS & Azure modules), Helm, Bicep, Ansible</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Version Control & SCM</h3>
+        <ul>
+          <li>Git, Bitbucket</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Containerization & Orchestration</h3>
+        <ul>
+          <li>Docker, Kubernetes (EKS, AKS), Helm charts</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>CI/CD Tools</h3>
+        <ul>
+          <li>Azure DevOps, GitHub Actions, ArgoCD (GitOps)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Monitoring & Logging</h3>
+        <ul>
+          <li>Prometheus, Grafana, AWS CloudWatch, Application Insights</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>ITSM Tools</h3>
+        <ul>
+          <li>JIRA, ServiceNow</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Databases</h3>
+        <ul>
+          <li>PostgreSQL, Oracle, SQL</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p style="text-align:center; font-size:1.1rem;">📧 <a href="mailto:sowndarya1024@gmail.com">sowndarya1024@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Sowndarya Ragavan | Built with ❤️</p>
+  </footer>
+</body>
+</html>
